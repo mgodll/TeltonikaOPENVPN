@@ -56,3 +56,15 @@ Al realizar el loggeo nos pediran cambiar la contraseña, al acceder al modem bu
 En el apartado de Firmware Upgrade Settings, se seleccionara Upgrade from server y se realizara un Upgrade, con ello se pretende realizar una pequeña actualizacion para que el intrumento pueda reconocer el archivo .bin con la ultima version del fabricante.
 
 ![INTERFAZ FIRMWARE](t3.png)
+
+Actualizacion de software
+
+![INTERFAZ UPGRADE](t4.png)
+
+Al culminar la actualizacion se tendra que realizar el mismo proceso pero se seleccionara en el apartado de Firmware Upgrade Settings, Upgrade from file, y se cargara el archivo `RUT2_R_00.07.06.6_WEBUI.bin` que se descargo previamente de los links proporcionados al principio de esta documentacion
+
+![INTERFAZ UPGRADE2](t5.png)
+
+Con ello se tendra con la ultima version del proveedor y se puede continuar con la configuracion de la vpn en los dispositivos
+
+![INTERFAZ UPGRADE3](TELTONIKA.png)
