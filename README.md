@@ -2,6 +2,8 @@
 
 En la siguiente documentació se realizara la conexion mediante una red multisite to multisite con OPENVPN con modems Teltonika - Cloud
 
+![TOPOLOGIA](TOP.png)
+
 # Herramientas necesarias
 
 Antes de proceder con la instalacion del entorno se necesita de las siguientes herramientas previas las cuales son:
