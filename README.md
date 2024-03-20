@@ -71,6 +71,8 @@ Con ello se tendra con la ultima version del proveedor y se puede continuar con 
 
 # Configuración de enrutamiento en el modem
 
+Despues de generar el archivo .ovpn para el cliente, se cargara en la interfaz de services, VPN, OpenVPN.
+
 ![INTERFAZ OpenVPN](t7.png)
 
 En Add new instance, se asignara el nombre que se desee, y en role se pondra client, se añade la red y se procede habilitar la interfaz a su vez la opcion para cargar archivos de OpenVPN, se selecciona el archivo y posteriormente se cargara.
