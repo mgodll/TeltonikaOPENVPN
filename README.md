@@ -2,7 +2,7 @@
 
 En la siguiente documentació se realizara la conexion mediante una red multisite to multisite con OPENVPN con modems Teltonika - Cloud
 
-![TOPOLOGIA](TOP.png)
+![TOPOLOGIA](TOP.PNG)
 
 # Herramientas necesarias
 
