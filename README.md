@@ -68,3 +68,31 @@ Al culminar la actualizacion se tendra que realizar el mismo proceso pero se sel
 Con ello se tendra con la ultima version del proveedor y se puede continuar con la configuracion de la vpn en los dispositivos
 
 ![INTERFAZ UPGRADE3](TELTONIKA.png)
+
+# Configuración de enrutamiento en el modem
+
+Despues de generar el archivo .ovpn para el cliente, se cargara en la interfaz de services, VPN, OpenVPN.
+
+
+En Add new instance, se asignara el nombre que se desee, y en role se pondra client, se añade la red y se procede habilitar la interfaz a su vez la opcion para cargar archivos de OpenVPN, se selecciona el archivo y posteriormente se cargara.
+
+De igual forma se realizara el procedimiento para los demas equipos que se requieran agregar a la red.
+
+> **NOTA** Habilitar los puertos para la VPN el cual es UDP o TCP en el 443
+
+# Instalacion de entorno rdp para ubuntu
+
+Para tener una interfaz visual de ubuntu en una maquina que se encuentre en una cloud, se requiere como primer paso habilitar los puertos de entrada y salida, en este caso 3389, con ello se ingresan los siguiente comandos en la maquina
+
+```bash
+sudo apt install ubuntu-desktop  # instando el entorno de escritorio
+sudo apt install -y xrdp # instalando el servicio rdp
+sudo apt install -y xfce4 # instalando complementos de rdp
+sudo service xrdp restart # se restablece el servicio
+```
+Con esto ya se tendria el entorno visual para ser usado, por ultimo se cambiara la contraseña de supor usario `root` 
+
+```bash
+sudo su
+passwd # se pondra contraseña que desee
+```
