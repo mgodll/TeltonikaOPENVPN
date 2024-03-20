@@ -47,5 +47,5 @@ Se asignara el nombre del primer cliente con el cual se cargara el archivo OpenV
 Ya con esto se tendria el servidor para emepezar el enrutamiento con los clientes, cada vez que se desee generar un cliente se ejecuta la line `./openvpn-install.sh` y se selecciona adicionar cliente.
 
 En el modem se muestra la siguiente interfaz
-![INTERFAZ TELTONIKA](TELTONIKA.png)
+![INTERFAZ TELTONIKA](t1.png)
 
