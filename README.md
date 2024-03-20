@@ -49,3 +49,10 @@ Ya con esto se tendria el servidor para emepezar el enrutamiento con los cliente
 En el modem se muestra la siguiente interfaz
 ![INTERFAZ TELTONIKA](t1.png)
 
+> **NOTA** La ip por defecto para acceder es la 192.168.1.1 con mascara 255.255.255.0, el usuario es admin y la contraseña admin01
+
+Al realizar el loggeo nos pediran cambiar la contraseña, al acceder al modem buscaremos la interfaz de system, firmware en la cual tendremos por defecto la `RUT2XX_R_00.01.14.7`, esta dependera del instrumento que se este usando.
+
+En el apartado de Firmware Upgrade Settings, se seleccionara Upgrade from server y se realizara un Upgrade, con ello se pretende realizar una pequeña actualizacion para que el intrumento pueda reconocer el archivo .bin con la ultima version del fabricante.
+
+![INTERFAZ FIRMWARE](t3.png)
